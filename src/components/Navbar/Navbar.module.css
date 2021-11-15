@@ -1,0 +1,13 @@
+.navbar {
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: var(--light-blue);
+}
+
+.logo {
+  width: 30vw;
+  height: auto;
+  max-width: 200px;
+}
