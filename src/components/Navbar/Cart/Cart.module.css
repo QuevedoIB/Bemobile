@@ -1,0 +1,11 @@
+.cartContainer {
+  display: flex;
+  align-items: center;
+}
+
+.amountBullet {
+  border-radius: 50%;
+  padding: 1rem;
+  background-color: var(--dark-blue);
+  font-color: white;
+}

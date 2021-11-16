@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+}
+
+.mobileImg {
+  width: 8vw;
+  margin-right: var(--spacing);
+}

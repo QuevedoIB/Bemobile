@@ -27,6 +27,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+  --border-radius: 4px;
+  --spacing: 1rem;
+  --layout-spacing: 6rem;
+
   --dark-blue: #495867;
   --blue: #577399;
   --light-blue: #bdd5ea;
@@ -40,4 +44,33 @@ body {
 body.dark-theme {
   --primary-color: var(--dark-blue);
   --secondary-color: var(--light-blue);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  margin-top: 0;
+}
+
+a:link {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+@media only screen and (max-width: 992px) {
+  body {
+    --layout-spacing: 1rem;
+  }
 }
